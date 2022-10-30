@@ -1,0 +1,54 @@
+#dashboard {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 220px;
+}
+
+.element, .dashboard-element {
+    width: 30px;
+    background: #296363;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.dashboard-element:hover {
+    cursor: pointer;
+}
+
+.info {
+    background: #23d0d0;
+    max-height: 100px;
+    padding: 8px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.active {
+    background: #a8c712;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    margin-left: 16px;
+    border: none;
+    background: #e525e5;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+}
